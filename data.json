@@ -1,0 +1,404 @@
+[{
+    "bronze": {
+        "damage": 48.0,
+        "buildId": "1",
+        "defence": 168.0,
+        "accuracy": 150,
+        "buildName": "Bronze Armor",
+        "magicBonus": 15.8,
+        "prayerBonus": 3,
+        "rangedBonus": 15.8,
+        "strengthBonus": 59.4
+    },
+    "BatwingArmor": {
+        "damage": 556.0,
+        "buildId": "2",
+        "defence": 299.1,
+        "accuracy": 908,
+        "buildName": "Batwing Armor",
+        "magicBonus": 58.0,
+        "prayerBonus": 1,
+        "rangedBonus": 26.5,
+        "strengthBonus": 26.5
+    },
+    "StuddedLeather": {
+        "damage": 192.0,
+        "buildId": "3",
+        "defence": 381.4,
+        "accuracy": 316,
+        "buildName": "Studded leather",
+        "magicBonus": 26.5,
+        "prayerBonus": 1,
+        "rangedBonus": 52.8,
+        "strengthBonus": 26.5
+    },
+    "VirtusArmor": {
+        "damage": 950.4,
+        "buildId": "4",
+        "defence": 1314.9,
+        "accuracy": 1924,
+        "buildName": "Virtus Armor",
+        "magicBonus": 185.1,
+        "prayerBonus": 16,
+        "rangedBonus": 32.7,
+        "strengthBonus": 32.7
+    }
+},{
+    "bronze": {
+        "feet_id": 1,
+        "head_id": 1,
+        "legs_id": 1,
+        "neck_id": 1,
+        "ring_id": 1,
+        "build id": "1",
+        "hands_id": 1,
+        "torso_id": 1,
+        "buildName": "Bronze Armor",
+        "mainHandId": 1
+    },
+    "BatwingArmor":{
+        "feet_id": 2,
+        "head_id": 2,
+        "legs_id": 2,
+        "neck_id": 1,
+        "ring_id": 2,
+        "build id": "2",
+        "hands_id": 2,
+        "torso_id": 2,
+        "buildName": "Batwing Armor",
+        "mainHandId": 2
+    },
+    "StuddedLeather":{
+        "feet_id": 3,
+        "head_id": 3,
+        "legs_id": 3,
+        "neck_id": 1,
+        "ring_id": 2,
+        "build id": "3",
+        "hands_id": 3,
+        "torso_id": 3,
+        "buildName": "Studded leather",
+        "mainHandId": 3
+    },
+    "VirtusArmor":{
+        "feet_id": 4,
+        "head_id": 4,
+        "legs_id": 4,
+        "neck_id": 2,
+        "ring_id": 3,
+        "build id": "4",
+        "hands_id": 4,
+        "torso_id": 4,
+        "buildName": "Virtus Armor",
+        "mainHandId": 4
+    }
+},{
+    "bronzeFullHelm":{
+        "id": 1,
+        "def":30.0,
+        "name":"Bronze full helm",
+        "magic": 0.0,
+        "range": 0.0,
+        "health": 0,
+        "prayer": 0,
+        "strength": 0.0
+    },
+    "batwingHood":{
+        "id": 2,
+        "def": 90.8,
+        "name":
+        "Batwing hood",
+        "magic": 0.0,
+        "range": 0.0,
+        "health": 0,
+        "prayer": 0,
+        "strength": 0.0
+    },
+    "studdedLeatherCoif":{
+        "id": 3,
+        "def": 63.2,
+        "name": "Studded leather coif",
+        "magic": 0.0,
+        "range": 0.0,
+        "health": 0,
+        "prayer": 0,
+        "strength": 0.0
+    },
+    "virtusMask":{
+        "id": 4,
+        "def": 338.8,
+        "name": "Virtus mask",
+        "magic": 20.3,
+        "range": 0.0,
+        "health": 110,
+        "prayer": 2,
+        "strength": 0.0
+    }
+},
+{
+    "fireCape":{
+        "id": 1,
+        "def": 25.5,
+        "name": "Fire cape",
+        "magic": 0.0,
+        "range": 0.0,
+        "health": 0,
+        "prayer": 2,
+        "strength": 26.3
+    },
+    "saradominCape":{
+        "id": 2,
+        "def":25.5,
+        "name": "Saradomin cape",
+        "magic": 31.5,
+        "range": 0.0,
+        "health": 0,
+        "prayer": 0,
+        "strength": 0.0
+    },
+    "avasAlerter":{
+        "id": 3,
+        "def": 33.9,
+        "name": "Ava's alerter",
+        "magic": 0.0,
+        "range": 26.3,
+        "health": 0,
+        "prayer": 0,
+        "strength": 0.0
+    },
+    "tokHarrKalMej":{
+        "id": 4,
+        "def": 44.5,
+        "name": "TokHarr-Kal-Mej",
+        "magic": 33.5,
+        "range": 0.0,
+        "health": 0,
+        "prayer": 2,
+        "strength": 0.0
+    }
+},
+{
+    "bronzeArmoredBoots":{
+        "id": 1,
+        "def": 7.5,
+        "name": "Bronze armored boots",
+        "magic": 0.0,
+        "range": 0.0,
+        "health": 0,
+        "prayer": 0,
+        "strength": 0.0
+    },
+    "batwingBoots":{
+        "id": 2,
+        "def": 22.7,
+        "name": "Batwing boots",
+        "magic": 0.0,
+        "range": 0.0,
+        "health": 0,
+        "prayer": 0,
+        "strength": 0.0
+    },
+    "studdedLeatherBoots":{
+        "id": 3,
+        "def": 63.2,
+        "name": "Studded leather boots",
+        "magic": 0.0,
+        "range": 0.0,
+        "health": 0,
+        "prayer": 0,
+        "strength": 0.0
+    },
+    "virtusBoots":{
+        "id": 4,
+        "def": 84.7,
+        "name": "Virtus boots",
+        "magic": 12.7,
+        "range": 0.0,
+        "health": 0,
+        "prayer": 2,
+        "strength": 0.0
+    }
+},
+{
+    "bronzeGauntlets":{
+        "id": 1,
+        "def": 7.5,
+        "name": "Bronze gauntlets",
+        "magic": 0.0,
+        "range": 0.0,
+        "health": 0,
+        "prayer": 0,
+        "strength": 0.0
+    },
+    "batwingGloves":{
+        "id": 2,
+        "def": 22.7,
+        "name": "Batwing gloves",
+        "magic": 0.0,
+        "range": 0.0,
+        "health": 0,
+        "prayer": 0,
+        "strength": 0.0
+    },
+    "studdedLeatherGloves":{
+        "id": 3,
+        "def": 15.8,
+        "name": "Studded leather gloves",
+        "magic": 0.0,
+        "range": 0.0,
+        "health": 0,
+        "prayer": 0,
+        "strength": 0.0
+    },
+    "virtusGloves":{
+        "id": 4,
+        "def": 84.7,
+        "name": "Virtus gloves",
+        "magic": 12.7,
+        "range": 0.0,
+        "health": 0,
+        "prayer": 2,
+        "strength": 0.0
+    }
+},
+{
+    "bronzePlatelegs":{
+        "id": 1,
+        "def": 33.0,
+        "name": "Bronze platelegs",
+        "magic": 0.0,
+        "range": 0.0,
+        "health": 0,
+        "prayer": 0,
+        "strength": 0.0
+    },
+    "batwingLegs":{
+        "id": 2,
+        "def": 33.0,
+        "name": "Batwing legs",
+        "magic": 0.0,
+        "range": 0.0,
+        "health": 0,
+        "prayer": 0,
+        "strength": 0.0
+    },
+    "studdedChaps":{
+        "id": 3,
+        "def": 69.5,
+        "name": "Studded chaps",
+        "magic": 0.0,
+        "range": 0.0,
+        "health": 0,
+        "prayer": 0,
+        "strength": 0.0
+    },
+    "virtusRobeTop":{
+        "id": 4,
+        "def": 372.6,
+        "name": "Virtus robe legs",
+        "magic": 25.4,
+        "range": 0.0,
+        "health": 165,
+        "prayer": 2,
+        "strength": 0.0
+    }
+},
+{
+    "amuletOfPower":{
+        "id": 1,
+        "def": 0.0,
+        "name": "Amulet of Power",
+        "magic": 15.8,
+        "range": 15.8,
+        "health": 0,
+        "prayer": 1,
+        "strength": 15.8
+    },
+    "amuletOfFury":{
+        "id": 2,
+        "def": 0.0,
+        "name": "Amulet of Fury",
+        "magic": 32.7,
+        "range": 32.7,
+        "health": 0,
+        "prayer": 3,
+        "strength": 32.7
+    }
+},
+{
+    "warriorRing":{
+        "id": 1,
+        "def": 0.0,
+        "name": "Warrior Ring",
+        "magic": 0.0,
+        "range": 0.0,
+        "health": 0,
+        "prayer": 0,
+        "strength": 17.3
+    },
+    "ringOfWealth":{
+        "id": 2,
+        "def": 0.0,
+        "name": "Ring of wealth",
+        "magic": 10.7,
+        "range": 10.7,
+        "health": 0,
+        "prayer": 0,
+        "strength": 10.7
+    },
+    "seersRing":{
+        "id": 3,
+        "def": 0.0,
+        "name": "Seer's ring",
+        "magic": 17.3,
+        "range": 0.0,
+        "health": 0,
+        "prayer": 0,
+        "strength": 0.0
+    }
+},
+{
+    "bronzePlatebody":{
+        "id": 1,
+        "def":
+        34.5,
+        "name": "Bronze Platebody",
+        "magic": 0.0,
+        "range": 0.0,
+        "health": 0,
+        "prayer": 0,
+        "strength": 0.0
+    },
+    "batwingTorso":{
+        "id": 2,
+        "def": 104.4,
+        "name": "Batwing torso",
+        "magic": 0.0,
+        "range": 0.0,
+        "health": 0,
+        "prayer": 0,
+        "strength": 0.0
+    },
+    "studdedBody":{
+        "id": 3,
+        "def": 72.6,
+        "name": "Studded body",
+        "magic": 0.0,
+        "range": 0.0,
+        "health": 0,
+        "prayer": 0,
+        "strength": 0.0
+    },
+    "virtusRobeTop":{
+        "id": 4,
+        "def": 389.6,
+        "name": "Virtus robe top",
+        "magic": 30.5,
+        "range": 0.0,
+        "health": 220,
+        "prayer": 3,
+        "strength": 0.0
+    }
+}
+]
+

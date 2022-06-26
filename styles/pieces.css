@@ -1,0 +1,15 @@
+#title {
+    font-size: 50px;
+}
+#statgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1fr,6);
+    width: 100px;
+    padding-top: 50px;
+}
+#gridelement {
+    border: 1px solid;
+    padding: 3px;
+    margin: 0;
+}
