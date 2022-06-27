@@ -45,7 +45,7 @@
             document.getElementById("magic").innerHTML =
             data[x.value][y.value].magic + "<br />";
             // virtusMask.png
-            document.getElementById('equip').src = data[x.value][y.value].imagePath; //"./images/virtusMask.png"
+            document.getElementById('equip').src += y.value + ".png"; //"./images/virtusMask.png"
         })
         .catch(function (err) {
             console.log(err);
@@ -123,4 +123,3 @@
         .catch(function (err) {
             console.log(err);
         });}*/
-        

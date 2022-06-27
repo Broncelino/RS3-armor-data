@@ -94,6 +94,7 @@
     }
 },{
     "bronzeFullHelm":{
+        "imagePath": "./images/",
         "id": 1,
         "def":30.0,
         "name":"Bronze full helm",
@@ -104,6 +105,7 @@
         "strength": 0.0
     },
     "batwingHood":{
+        "imagePath": "./images/",
         "id": 2,
         "def": 90.8,
         "name":
@@ -115,6 +117,7 @@
         "strength": 0.0
     },
     "studdedLeatherCoif":{
+        "imagePath": "./images/",
         "id": 3,
         "def": 63.2,
         "name": "Studded leather coif",
@@ -133,11 +136,12 @@
         "health": 110,
         "prayer": 2,
         "strength": 0.0,
-        "imagePath": "./images/virtusMask.png"
+        "imagePath": "virtusMask.png"
     }
 },
 {
     "fireCape":{
+        "imagePath": "fireCape.png",
         "id": 1,
         "def": 25.5,
         "name": "Fire cape",
@@ -145,10 +149,10 @@
         "range": 0.0,
         "health": 0,
         "prayer": 2,
-        "strength": 26.3,
-        "imagePath": "./images/fireCape.png"
+        "strength": 26.3
     },
     "saradominCape":{
+        "imagePath": "./images/",
         "id": 2,
         "def":25.5,
         "name": "Saradomin cape",
@@ -159,6 +163,7 @@
         "strength": 0.0
     },
     "avasAlerter":{
+        "imagePath": "./images/",
         "id": 3,
         "def": 33.9,
         "name": "Ava's alerter",
@@ -169,6 +174,7 @@
         "strength": 0.0
     },
     "tokHarrKalMej":{
+        "imagePath": "./images/",
         "id": 4,
         "def": 44.5,
         "name": "TokHarr-Kal-Mej",
@@ -181,6 +187,7 @@
 },
 {
     "bronzeArmoredBoots":{
+        "imagePath": "./images/",
         "id": 1,
         "def": 7.5,
         "name": "Bronze armored boots",
@@ -191,6 +198,7 @@
         "strength": 0.0
     },
     "batwingBoots":{
+        "imagePath": "./images/",
         "id": 2,
         "def": 22.7,
         "name": "Batwing boots",
@@ -201,6 +209,7 @@
         "strength": 0.0
     },
     "studdedLeatherBoots":{
+        "imagePath": "./images/",
         "id": 3,
         "def": 63.2,
         "name": "Studded leather boots",
@@ -211,6 +220,7 @@
         "strength": 0.0
     },
     "virtusBoots":{
+        "imagePath": "./images/",
         "id": 4,
         "def": 84.7,
         "name": "Virtus boots",
@@ -223,6 +233,7 @@
 },
 {
     "bronzeGauntlets":{
+        "imagePath": "./images/",
         "id": 1,
         "def": 7.5,
         "name": "Bronze gauntlets",
@@ -233,6 +244,7 @@
         "strength": 0.0
     },
     "batwingGloves":{
+        "imagePath": "./images/",
         "id": 2,
         "def": 22.7,
         "name": "Batwing gloves",
@@ -243,6 +255,7 @@
         "strength": 0.0
     },
     "studdedLeatherGloves":{
+        "imagePath": "./images/",
         "id": 3,
         "def": 15.8,
         "name": "Studded leather gloves",
@@ -253,6 +266,7 @@
         "strength": 0.0
     },
     "virtusGloves":{
+        "imagePath": "./images/",
         "id": 4,
         "def": 84.7,
         "name": "Virtus gloves",
@@ -265,6 +279,7 @@
 },
 {
     "bronzePlatelegs":{
+        "imagePath": "./images/",
         "id": 1,
         "def": 33.0,
         "name": "Bronze platelegs",
@@ -275,6 +290,7 @@
         "strength": 0.0
     },
     "batwingLegs":{
+        "imagePath": "./images/",
         "id": 2,
         "def": 33.0,
         "name": "Batwing legs",
@@ -285,6 +301,7 @@
         "strength": 0.0
     },
     "studdedChaps":{
+        "imagePath": "./images/",
         "id": 3,
         "def": 69.5,
         "name": "Studded chaps",
@@ -295,6 +312,7 @@
         "strength": 0.0
     },
     "virtusRobeTop":{
+        "imagePath": "./images/",
         "id": 4,
         "def": 372.6,
         "name": "Virtus robe legs",
@@ -307,6 +325,7 @@
 },
 {
     "amuletOfPower":{
+        "imagePath": "./images/",
         "id": 1,
         "def": 0.0,
         "name": "Amulet of Power",
@@ -317,6 +336,7 @@
         "strength": 15.8
     },
     "amuletOfFury":{
+        "imagePath": "./images/",
         "id": 2,
         "def": 0.0,
         "name": "Amulet of Fury",
@@ -329,6 +349,7 @@
 },
 {
     "warriorRing":{
+        "imagePath": "./images/",
         "id": 1,
         "def": 0.0,
         "name": "Warrior Ring",
@@ -339,6 +360,7 @@
         "strength": 17.3
     },
     "ringOfWealth":{
+        "imagePath": "./images/",
         "id": 2,
         "def": 0.0,
         "name": "Ring of wealth",
@@ -349,6 +371,7 @@
         "strength": 10.7
     },
     "seersRing":{
+        "imagePath": "./images/",
         "id": 3,
         "def": 0.0,
         "name": "Seer's ring",
@@ -361,6 +384,7 @@
 },
 {
     "bronzePlatebody":{
+        "imagePath": "./images/",
         "id": 1,
         "def":
         34.5,
@@ -372,6 +396,7 @@
         "strength": 0.0
     },
     "batwingTorso":{
+        "imagePath": "./images/",
         "id": 2,
         "def": 104.4,
         "name": "Batwing torso",
@@ -382,6 +407,7 @@
         "strength": 0.0
     },
     "studdedBody":{
+        "imagePath": "./images/",
         "id": 3,
         "def": 72.6,
         "name": "Studded body",
@@ -392,6 +418,7 @@
         "strength": 0.0
     },
     "virtusRobeTop":{
+        "imagePath": "./images/",
         "id": 4,
         "def": 389.6,
         "name": "Virtus robe top",
