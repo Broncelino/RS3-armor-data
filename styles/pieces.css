@@ -13,3 +13,8 @@ p.gridelement{
     padding: 3px;
     margin: 0;
 }
+#equip {
+    max-width: 500px;
+    max-height: 500px;
+    display: inline;
+}

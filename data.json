@@ -132,7 +132,8 @@
         "range": 0.0,
         "health": 110,
         "prayer": 2,
-        "strength": 0.0
+        "strength": 0.0,
+        "imagePath": "./images/virtusMask.png"
     }
 },
 {
@@ -144,7 +145,8 @@
         "range": 0.0,
         "health": 0,
         "prayer": 2,
-        "strength": 26.3
+        "strength": 26.3,
+        "imagePath": "./images/fireCape.png"
     },
     "saradominCape":{
         "id": 2,
