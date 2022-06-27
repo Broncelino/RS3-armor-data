@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Runescape armory home</title>
+    <title>Runescape armor pieces</title>
     <link type="text/css" rel="stylesheet" href="styles/pieces.css">
+    <script type = "text/javascript" src="function.js"></script>
 </head>
 <body>
     <div id="content">
@@ -24,20 +25,27 @@
         </nav>
     </header>
         <span id=statgrid>
-            <p id="gridelement">defence</p>
-            <p id="gridelement">float</p> <!-- These "float" place holder values will be pulled from a json file -->
-            <p id="gridelement">health</p>
-            <p id="gridelement">float</p>
-            <p id="gridelement">prayer</p>
-            <p id="gridelement">float</p>
-            <p id="gridelement">ranged</p>
-            <p id="gridelement">float</p>
-            <p id="gridelement">strength</p>
-            <p id="gridelement">float</p>
-            <p id="gridelement">magic</p>
-            <p id="gridelement">float</p>
+            <p class="gridelement">defence</p>
+            <p id="defence" class="gridelement"></p> <!-- These "float" place holder values will be pulled from a json file -->
+            <p  class="gridelement">health</p>
+            <p id="health" class="gridelement"></p>
+            <p  class="gridelement">prayer</p>
+            <p id="prayer" class="gridelement"></p>
+            <p  class="gridelement">ranged</p>
+            <p id="range" class="gridelement"></p>
+            <p  class="gridelement">strength</p>
+            <p id="strength" class="gridelement"></p>
+            <p  class="gridelement">magic</p>
+            <p id="magic" class="gridelement"></p>
         </span>
-        <img class="itemdisp" src="images/abby whip.png" alt="abby whip"> <!-- Image name will also be pulled from json file -->
+        <label for="table">table:</label>
+        <input type="number" id="table" name="table"><br><br>
+        <label for="armor">armor:</label>
+        <input type="text" id="armor" name="armor"><br><br>
+        <label for="armor">stat:</label>
+        <input type="text" id="stat" name="stat"><br><br>
+        <input type = "button" onclick = "getStats()" value = "Display">
+        <!-- <img class="itemdisp" src="images/abby whip.png" alt="abby whip"> Image name will also be pulled from json file -->
         <div>
             dropdown menu/searchbar
         </div>
