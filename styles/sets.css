@@ -8,7 +8,7 @@
     width: 100px;
     padding-top: 50px;
 }
-#gridelement {
+p.gridelement{
     border: 1px solid;
     padding: 3px;
     margin: 0;
@@ -20,9 +20,13 @@
     width: 600px;
     justify-items: center;
 }
-#head {
+#headimg {
     grid-column: 1/4;
 }
-#legs {
+#legsimg {
     grid-column: 1/4;
+}
+img.equipgridelement {
+max-width: 100px;
+max-height: 100px;
 }

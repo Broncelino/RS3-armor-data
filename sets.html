@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Runescape armor sets</title>
     <link type="text/css" rel="stylesheet" href="styles/sets.css">
+    <script type = "text/javascript" src="function.js"></script>
 </head>
 <body>
     <div id="content">
@@ -26,31 +27,50 @@
     <h1>RuneScape Armor Set Builder</h1>
     <div>
         <span id=statgrid>
-            <p id="gridelement">defence</p>
-            <p id="gridelement">float</p> <!-- These "float" place holder values will be pulled from a json file -->
-            <p id="gridelement">health</p>
-            <p id="gridelement">float</p>
-            <p id="gridelement">prayer</p>
-            <p id="gridelement">float</p>
-            <p id="gridelement">ranged</p>
-            <p id="gridelement">float</p>
-            <p id="gridelement">strength</p>
-            <p id="gridelement">float</p>
-            <p id="gridelement">magic</p>
-            <p id="gridelement">float</p>
+            <p id="" class="gridelement">defence</p>
+            <p id="fullDefence" class="gridelement"></p> <!-- These "float" place holder values will be pulled from a json file -->
+            <p id="" class="gridelement">health</p>
+            <p id="fullHealth" class="gridelement">float</p>
+            <p id="" class="gridelement">prayer</p>
+            <p id="fullPrayer" class="gridelement">float</p>
+            <p id="" class="gridelement">ranged</p>
+            <p id="fullRange" class="gridelement">float</p>
+            <p id="" class="gridelement">strength</p>
+            <p id="fullStrength" class="gridelement">float</p>
+            <p id="" class="gridelement">magic</p>
+            <p id="fullMagic" class="gridelement">float</p>
         </span>
+        <label for="head">head:</label>
+        <input type="text" id="head" name="head"><br><br>
+        <label for="back">back:</label>
+        <input type="text" id="back" name="back"><br><br>
+        <label for="neck">neck:</label>
+        <input type="text" id="neck" name="neck"><br><br>
+        <label for="torso">torso:</label>
+        <input type="text" id="torso" name="torso"><br><br>
+        <label for="legs">legs:</label>
+        <input type="text" id="legs" name="legs"><br><br>
+        <label for="hands">hands:</label>
+        <input type="text" id="hands" name="hands"><br><br>
+        <label for="feet">feet:</label>
+        <input type="text" id="feet" name="feet"><br><br>
+        <label for="ring">ring:</label>
+        <input type="text" id="ring" name="ring"><br><br>
+
+        <input type = "button" onclick = "statTotals()" value = "Display">
+
         <span id="equipgrid">
-            <img id="head" src="images/logo.png" alt="filler img">
-            <img id="back" src="images/logo.png" alt="filler img"> <!-- Image names will be pulled from file, filler images for now -->
-            <img id="neck" src="images/logo.png" alt="filler img">
-            <img id="ammo" src="images/logo.png" alt="filler img">
-            <img id="main_hand" src="images/logo.png" alt="filler img">
-            <img id="torso" src="images/logo.png" alt="filler img">
-            <img id="off_hand" src="images/logo.png" alt="filler img">
-            <img id="legs" src="images/logo.png" alt="filler img">
-            <img id="hands" src="images/logo.png" alt="filler img">
-            <img id="feet" src="images/logo.png" alt="filler img">
-            <img id="ring" src="images/logo.png" alt="filler img">
+            <img id="headimg" class="equipgridelement" src="" alt="filler img">
+            <img id="backimg" class="equipgridelement" src="" alt="filler img"> <!-- Image names will be pulled from file, filler images for now -->
+            <img id="neckimg" class="equipgridelement" src="" alt="filler img">
+            <img id="ammoimg" class="equipgridelement" src="" alt="filler img">
+            <img id="main_hand" class="equipgridelement" src="" alt="filler img">
+            <img id="torsoimg" class="equipgridelement" src="" alt="filler img">
+            <img id="off_hand" class="equipgridelement" src="" alt="filler img">
+            <img id="legsimg" class="equipgridelement" src="" alt="filler img">
+            <img id="handsimg" class="equipgridelement" src="" alt="filler img">
+            <img id="feetimg" class="equipgridelement" src="" alt="filler img">
+            <img id="ringimg" class="equipgridelement" src="" alt="filler img">
         </span>
         <p>dropdown/search</p>
     </div>
