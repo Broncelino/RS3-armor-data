@@ -93,6 +93,14 @@
         "mainHandId": 4
     }
 },{
+    "emptyHead":{
+        "def": 0,
+        "magic": 0.0,
+        "range": 0.0,
+        "health": 0,
+        "prayer": 0,
+        "strength": 0.0
+    },
     "bronzeFullHelm":{
         "imagePath": "./images/",
         "id": 1,
@@ -140,6 +148,14 @@
     }
 },
 {
+    "emptyBack":{
+        "def": 0,
+        "magic": 0.0,
+        "range": 0.0,
+        "health": 0,
+        "prayer": 0,
+        "strength": 0.0
+    },
     "fireCape":{
         "imagePath": "fireCape.png",
         "id": 1,
@@ -186,6 +202,14 @@
     }
 },
 {
+    "emptyFeet":{
+        "def": 0,
+        "magic": 0.0,
+        "range": 0.0,
+        "health": 0,
+        "prayer": 0,
+        "strength": 0.0
+    },
     "bronzeArmoredBoots":{
         "imagePath": "./images/",
         "id": 1,
@@ -232,6 +256,14 @@
     }
 },
 {
+    "emptyHands":{
+        "def": 0,
+        "magic": 0.0,
+        "range": 0.0,
+        "health": 0,
+        "prayer": 0,
+        "strength": 0.0
+    },
     "bronzeGauntlets":{
         "imagePath": "./images/",
         "id": 1,
@@ -278,6 +310,14 @@
     }
 },
 {
+    "emptyLegs":{
+        "def": 0,
+        "magic": 0.0,
+        "range": 0.0,
+        "health": 0,
+        "prayer": 0,
+        "strength": 0.0
+    },
     "bronzePlatelegs":{
         "imagePath": "./images/",
         "id": 1,
@@ -324,6 +364,14 @@
     }
 },
 {
+    "emptyNeck":{
+        "def": 0,
+        "magic": 0.0,
+        "range": 0.0,
+        "health": 0,
+        "prayer": 0,
+        "strength": 0.0
+    },
     "amuletOfPower":{
         "imagePath": "./images/",
         "id": 1,
@@ -348,6 +396,14 @@
     }
 },
 {
+    "emptyRing":{
+        "def": 0,
+        "magic": 0.0,
+        "range": 0.0,
+        "health": 0,
+        "prayer": 0,
+        "strength": 0.0
+    },
     "warriorRing":{
         "imagePath": "./images/",
         "id": 1,
@@ -383,6 +439,14 @@
     }
 },
 {
+    "emptyTorso":{
+        "def": 0,
+        "magic": 0.0,
+        "range": 0.0,
+        "health": 0,
+        "prayer": 0,
+        "strength": 0.0
+    },
     "bronzePlatebody":{
         "imagePath": "./images/",
         "id": 1,

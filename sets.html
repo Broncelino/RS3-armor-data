@@ -28,68 +28,96 @@
     <div>
         <span id=statgrid>
             <p id="" class="gridelement">defence</p>
-            <p id="fullDefence" class="gridelement"></p> <!-- These "float" place holder values will be pulled from a json file -->
+            <p id="fullDefence" class="gridelement"></p> <!-- These values are pulled from a json file -->
             <p id="" class="gridelement">health</p>
-            <p id="fullHealth" class="gridelement">float</p>
+            <p id="fullHealth" class="gridelement"></p>
             <p id="" class="gridelement">prayer</p>
-            <p id="fullPrayer" class="gridelement">float</p>
+            <p id="fullPrayer" class="gridelement"></p>
             <p id="" class="gridelement">ranged</p>
-            <p id="fullRange" class="gridelement">float</p>
+            <p id="fullRange" class="gridelement"></p>
             <p id="" class="gridelement">strength</p>
-            <p id="fullStrength" class="gridelement">float</p>
+            <p id="fullStrength" class="gridelement"></p>
             <p id="" class="gridelement">magic</p>
-            <p id="fullMagic" class="gridelement">float</p>
+            <p id="fullMagic" class="gridelement"></p>
         </span>
+        <span>
         <label for="head">head:</label>
         <select name="head" id="head">
+            <option value="emptyHead">None</option>
             <option value="virtusMask">Virtus Mask</option>
             <option value="bronzeFullHelm">Bronze Full Helm</option>
+            <option value="batwingHood">Batwing Hood</option>
+            <option value="studdedLeatherCoif">Studded Leather Coif</option>
         </select><br><br>
         <label for="back">back:</label>
         <select name="back" id="back">
+            <option value="emptyBack">None</option>
             <option value="fireCape">Fire Cape</option>
             <option value="saradominCape">Saradomin Cape</option>
+            <option value="avasAlerter">Ava's Alerter</option>
+            <option value="tokHarrKalMej">TokHarr-Kal-Mej</option>
         </select><br><br>
         <label for="neck">neck:</label>
         <select name="neck" id="neck">
+            <option value="emptyNeck">None</option>
             <option value="amuletOfFury">Amulet of Fury</option>
             <option value="amuletOfPower">Amulet of Power</option>
         </select><br><br>
         <label for="torso">torso:</label>
         <select name="torso" id="torso">
+            <option value="emptyTorso">None</option>
             <option value="virtusRobeTop">Virtus Robe Top</option>
+            <option value="bronzePlatebody">Bronze Platebody</option>
+            <option value="batwingTorso">Batwing Torso</option>
+            <option value="studdedBody">Studded Body</option>
         </select><br><br>
         <label for="legs">legs:</label>
         <select name="legs" id="legs">
+            <option value="emptyLegs">None</option>
             <option value="virtusRobeLegs">Virtus Robe Legs</option>
+            <option value="bronzePlatelegs">Bronze Platelegs</option>
+            <option value="batwingLegs">Batwing Legs</option>
+            <option value="studdedChaps">Studded Chaps</option>
         </select><br><br>
         <label for="hands">hands:</label>
         <select name="hands" id="hands">
+            <option value="emptyHands">None</option>
             <option value="virtusGloves">Virtus Gloves</option>
+            <option value="bronzeGauntlets">Bronze Gauntlets</option>
+            <option value="batwingGloves">Batwing Gloves</option>
+            <option value="studdedLeatherGloves">Studded Leather Gloves</option>
         </select><br><br>
         <label for="feet">feet:</label>
         <select name="feet" id="feet">
+            <option value="emptyFeet">None</option>
             <option value="virtusBoots">Virtus Boots</option>
+            <option value="bronzeArmoredBoots">Bronze Armored Boots</option>
+            <option value="batwingBoots">Batwing Boots</option>
+            <option value="studdedLeatherBoots">Studded Leather Boots</option>
         </select><br><br>
         <label for="ring">ring:</label>
         <select name="ring" id="ring">
+            <option value="emptyRing">None</option>
             <option value="seersRing">Seer's Ring</option>
+            <option value="warriorRing">Warrior Ring</option>
+            <option value="ringOfWealth">Ring of Wealth</option>
         </select><br><br>
+        </span>
 
         <input type = "button" onclick = "statTotals()" value = "Display">
 
         <span id="equipgrid">
-            <img id="headimg" class="equipgridelement" src="" alt="filler img">
-            <img id="backimg" class="equipgridelement" src="" alt="filler img"> <!-- Image names will be pulled from file, filler images for now -->
-            <img id="neckimg" class="equipgridelement" src="" alt="filler img">
-            <img id="ammoimg" class="equipgridelement" src="" alt="filler img">
-            <img id="main_hand" class="equipgridelement" src="" alt="filler img">
-            <img id="torsoimg" class="equipgridelement" src="" alt="filler img">
-            <img id="off_hand" class="equipgridelement" src="" alt="filler img">
-            <img id="legsimg" class="equipgridelement" src="" alt="filler img">
-            <img id="handsimg" class="equipgridelement" src="" alt="filler img">
-            <img id="feetimg" class="equipgridelement" src="" alt="filler img">
-            <img id="ringimg" class="equipgridelement" src="" alt="filler img">
+            <img id="headimg" class="equipgridelement" src="./images/emptyHead.png" alt="filler img">
+            <img id="backimg" class="equipgridelement" src="./images/emptyBack.png" alt="filler img">
+            <img id="neckimg" class="equipgridelement" src="./images/emptyNeck.png" alt="filler img">
+            <img id="ammoimg" class="equipgridelement" src="./images/emptyAmmo.png" alt="filler img">
+            <img id="main_hand" class="equipgridelement" src="./images/emptyMH.png" alt="filler img">
+            <img id="torsoimg" class="equipgridelement" src="./images/emptyTorso.png" alt="filler img">
+            <img id="off_hand" class="equipgridelement" src="./images/emptyOF.png" alt="filler img">
+            <img id="legsimg" class="equipgridelement" src="./images/emptyLegs.png" alt="filler img">
+            <img id="handsimg" class="equipgridelement" src="./images/emptyHands.png" alt="filler img">
+            <img id="feetimg" class="equipgridelement" src="./images/emptyFeet.png" alt="filler img">
+            <img id="ringimg" class="equipgridelement" src="./images/emptyRing.png" alt="filler img">
         </span>
         <p>dropdown/search</p>
     </div>
