@@ -1,3 +1,6 @@
+body {
+    background-color: #8ee3ef;
+}
 #title {
     font-size: 50px;
 }
@@ -6,4 +9,21 @@ width: 50%;
 }
 #how2 {
     height: 550px
+}
+nav {
+    height: 50px;
+    margin: 0 auto;
+    
+
+}
+nav a, footer a{
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 20px;
+    position: relative;
+    top: 50%
+}
+nav a:hover {
+    background-color: #f1bf98;
+
 }
