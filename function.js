@@ -16,9 +16,6 @@
     });}*/
 
 
-
-
-
     function getStats() {
         var y = document.getElementById("armor");
         fetch('./data.json')

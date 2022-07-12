@@ -1,17 +1,38 @@
 #title {
     font-size: 50px;
 }
+nav {
+    height: 50px;
+    margin: 0 auto;
+}
+nav a, footer a{
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 20px;
+    position: relative;
+    top: 50%
+}
+nav a:hover {
+    background-color: #f1bf98;
+
+}
+body {
+    background-color: #8ee3ef;
+}
 #statgrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(1fr,6);
     width: 100px;
     padding-top: 50px;
+    padding-bottom: 15px;
 }
 p.gridelement{
     border: 1px solid;
     padding: 3px;
     margin: 0;
+    background-color: white;
+    
 }
 #equipgrid {
     display: grid;
@@ -19,6 +40,8 @@ p.gridelement{
     grid-template-rows: repeat(1fr,5);
     width: 600px;
     justify-items: center;
+    position: relative;
+    
 }
 #headimg {
     grid-column: 1/4;
