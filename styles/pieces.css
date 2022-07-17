@@ -1,20 +1,70 @@
-#title {
-    font-size: 50px;
-}
+
 #statgrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(1fr,6);
     width: 100px;
     padding-top: 50px;
+    padding-bottom: 15px;
 }
 p.gridelement{
     border: 1px solid;
     padding: 3px;
     margin: 0;
+    background-color: white;
 }
 #equip {
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 350px;
+    max-height: 350px;
     display: inline;
+    position: absolute;
+    left: 25%;
+    top: 30%;
+}
+#title {
+    font-size: 50px;
+}
+nav {
+    height: 50px;
+    margin: 0 auto;
+}
+nav a{
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 20px;
+    position: relative;
+    top: 50%
+}
+footer{
+    text-decoration: none;
+    position: relative;
+    margin-top: 100px;
+}
+footer span a {
+    text-decoration: none;
+}
+footer span a:hover {
+    background-color: #f1bf98;
+}
+nav a:hover {
+    background-color: #f1bf98;
+
+}
+body {
+    background-color: #8ee3ef;
+}
+img.equipgridelement {
+max-width: 100px;
+max-height: 100px;
+}
+#instructions {
+    width: 400px;
+    position: absolute;
+    left: 60%;
+    top: 30%;
+    font-size: 30px;
+}
+.social a img{
+    padding-top: 15px;
+    height: 50px;
 }
